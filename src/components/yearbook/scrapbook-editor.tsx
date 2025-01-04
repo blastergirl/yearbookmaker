@@ -4,12 +4,15 @@ import { useState, useEffect, useRef } from 'react';
 import { Image, Sticker, Type, PenTool, Save, Plus, Trash2, Move, ZoomIn, ZoomOut, RotateCw } from 'lucide-react';
 import { yearbookStorage, ScrapbookPage } from '@/lib/yearbook-storage';
 
+// First, create a type for the template names
+type TemplateType = 'besties' | 'funMemories' | 'myStyle' | 'hobbies' | 'music' | 'dreams';
+
 interface ScrapbookEditorProps {
   yearbookId: string;
-  selectedTemplate?: string;
+  selectedTemplate?: TemplateType;
 }
 
-const TEMPLATE_TITLES = {
+const TEMPLATE_TITLES: Record<TemplateType, string> = {
   'besties': '👭 BFF Page',
   'funMemories': '🎉 Fun Times',
   'myStyle': '👗 My Style',
@@ -41,9 +44,8 @@ export function ScrapbookEditor({ yearbookId, selectedTemplate }: ScrapbookEdito
   const [selectedElement, setSelectedElement] = useState<number | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
-
   const getTemplateTitle = () => {
-    return selectedTemplate ? TEMPLATE_TITLES[selectedTemplate] || 'My Scrapbook Page' : 'My Scrapbook Page';
+    return selectedTemplate ? (TEMPLATE_TITLES[selectedTemplate] || 'My Scrapbook Page') : 'My Scrapbook Page';
   };
 
   // Get template-specific stickers

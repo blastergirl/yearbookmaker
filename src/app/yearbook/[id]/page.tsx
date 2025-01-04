@@ -6,6 +6,8 @@ import { ArrowLeft, Book, BookOpen, Heart, Star, Camera, Users, Sparkles, Music,
 import Link from 'next/link';
 import { ScrapbookEditor } from '@/components/yearbook/scrapbook-editor';
 
+type TemplateType = 'besties' | 'funMemories' | 'myStyle' | 'hobbies' | 'music' | 'dreams';
+
 const TEMPLATES = [
   {
     id: 'besties',
@@ -182,7 +184,7 @@ export default function YearbookViewer({ params }: { params: { id: string } }) {
           ) : (
             <ScrapbookEditor 
               yearbookId={yearbook.id} 
-              selectedTemplate={selectedTemplate || undefined} 
+                  selectedTemplate={selectedTemplate as TemplateType} 
             />
           )}
         </div>

@@ -1,0 +1,72 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/app/_not-found-2bbd6e7be87b0f7a.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/css/7d0944847e125107.css",
+      "static/chunks/app/layout-3b3c8830e05e0fc1.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/250-a1b1a2d1e1465bfd.js",
+      "static/chunks/app/page-4d0245ac64109982.js"
+    ],
+    "/yearbook/page": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/250-a1b1a2d1e1465bfd.js",
+      "static/chunks/app/yearbook/page-624292848fddfcb0.js"
+    ],
+    "/create/page": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/app/create/page-c676167ca615ba47.js"
+    ],
+    "/yearbook/design/[id]/layout": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/app/yearbook/design/[id]/layout-79f0280fd7e22a1e.js"
+    ],
+    "/yearbook/design/[id]/page": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/850-8ade39bf210871cf.js",
+      "static/chunks/app/yearbook/design/[id]/page-29212105aa260bcf.js"
+    ],
+    "/yearbook/[id]/page": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/250-a1b1a2d1e1465bfd.js",
+      "static/chunks/app/yearbook/[id]/page-bc0eb1d68b80e9a9.js"
+    ],
+    "/yearbook/[id]/layout": [
+      "static/chunks/webpack-552c7f8e6f704a96.js",
+      "static/chunks/fd9d1056-29664dd7d7e67e6e.js",
+      "static/chunks/69-213d904e10ebe6ea.js",
+      "static/chunks/main-app-bc4d0259d207787c.js",
+      "static/chunks/app/yearbook/[id]/layout-da9326bdd426faad.js"
+    ]
+  }
+}
